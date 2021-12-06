@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+body {
+	position: relative;
+}
+
+h1 {
+	margin-left: 20px;
+}
+
+main {
+	margin-left: 20px;
+}
+
+.header-container {
+	background: blue;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	line-height: 3em;
+	z-index: 1;
+}
+
+#filler {
+	background: white;
+	position: fixed;
+	height: 30px;
+	width: 100vw;
+	z-index: 2;
+	top: 50px;
+}
+
+/*.links-container a {
+	display: block;
+	margin: 5px;
+}*/
+
+aside {
+	border-right: 2px solid grey;
+	position: fixed;
+	top: 80px;
+	width: 23vw;
+	height: 50vh;
+}
+
+aside h2 {
+	margin-top: 10px;
+}
+
+.contact-container {
+	position: absolute;
+	top: 80px;
+	left: 30vw;	
+	width: 65vw;
+}
+
+.contact-container span {
+	display: block;
+	margin: 10px;
+}
+
+.contact-header {
+	position: sticky;
+	background: blue;
+	top: 80px;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+.links-container li {
+	margin: 5px;
+}
+
+.contact-list li {
+	margin: 10px;
+}

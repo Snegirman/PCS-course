@@ -1,0 +1,173 @@
+.authorization-wrapper {
+    display: inline-block;
+    /*position: relative;*/
+    height: calc(100vh - 70px);
+    width: 100%;
+    background-color: #082D0F;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.authorization-form {
+    margin-top: 10%;
+}
+
+form {
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+
+
+    background: #39FF53;
+    border: 5px solid #7D1128;
+}
+
+/* errors */
+
+.required_field {
+    position: relative;
+    font-size: 10px;
+    top: 40px;
+    color: #CB2424;
+    display: none;
+    font-weight: bold;
+}
+
+.invalid_email {
+    position: relative;
+    font-size: 10px;
+    top: 40px;
+    color: #CB2424;
+    display: none;
+    font-weight: bold;
+}
+
+.short_password {
+    position: relative;
+    font-size: 10px;
+    top: 40px;
+    color: #CB2424;
+    display: none;
+    font-weight: bold;
+}
+
+/* input email */
+
+.authorization__input-email {
+    position: absolute;
+    width: 509px;
+    height: 49px;
+    left: 45px;
+    margin-top: 60px;
+}
+
+#email::placeholder {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 19px;
+    padding-left: 5px;
+}
+
+[for="email"] {
+    position: absolute;
+    width: 40px;
+    height: 16px;
+    left: 8px;
+    top: -19px;
+    color: #787878;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+#email {
+    position: absolute;
+    width: 509px;
+    height: 49px;
+    left: 0;
+    top: 0;
+
+    font-size: 28px;
+    line-height: 36px;
+
+    background: #FFFFFF;
+    border: 5px solid #7D1128;
+    box-sizing: border-box;
+    outline: none;
+ }
+
+/* input password */
+
+.authorization__input-password {
+    position: absolute;
+    width: 509px;
+    height: 49px;
+    left: 45px;
+    margin-top: 160px;
+}
+
+[for="password"] {
+    position: absolute;
+    width: 56px;
+    height: 16px;
+    left: 8px;
+    top: -19px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+
+    color: #787878;
+}
+
+#password {
+    position: absolute;
+    width: 509px;
+    height: 49px;
+    left: 0;
+    top: 0;
+
+    font-size: 28px;
+    line-height: 36px;
+
+    background: #FFFFFF;
+    border: 5px solid #7D1128;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#password::placeholder {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 19px;
+    padding-left: 5px;
+}
+
+/* button */
+
+.authorization__button-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+button {
+    width: 180px;
+    height: 52px;
+    left: 218px;
+    margin-top: 260px;
+
+    background: #FCDE9C;
+    border: 5px solid #7D1128;
+
+    color: #ff65d6;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 14px;
+}
+
+button:hover {
+    cursor: pointer;
+    border: 5px dashed #7D1128;
+}

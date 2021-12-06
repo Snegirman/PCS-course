@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<title>Homework_12</title>
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<div class="authorization">
+			<h1>Регистрация</h1>
+			<form>
+				<div class="authorization__input-email">
+				<label for="email">Email</label>
+					<span>*</span><input id="email" type="email" name="e-mail" placeholder="Введите электронную почту">
+					<div class="required_field">Поле обязательно для заполнения</div>
+					<div class="invalid_email">Email невалидный</div>
+				</div>
+				<div class="authorization__input-password">
+				<label for="password">Пароль</label>
+					<span>*</span><input id="password" type="password" name="password" placeholder="Ведите пароль">
+					<div class="required_field">Поле обязательно для заполнения</div>
+					<div class="short_password">Пароль должен содержать как минимум 8 символов</div>
+				</div>
+				<div class="authorization__checkbox">
+					<span>*</span><label for="checkbox">Я согласен c <a href="#">Правилами пользования приложением</a></label>
+				<input id="checkbox" type="checkbox" name="checkbox">
+					<div class="authorization__checkbox-custom">
+					</div>
+					<div class="required_field_checkbox">Поле обязательно для заполнения</div>
+				</div>
+				<div class="authorization__button-wrapper">
+				<button type="submit">Регистрация</button>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
