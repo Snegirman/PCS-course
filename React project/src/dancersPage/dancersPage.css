@@ -1,0 +1,101 @@
+.dancers-page {
+    background-color: #082D0F;
+    display: inline-block;
+    width: 100%;
+    min-height: calc(100vh - 75px);
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+.dancer-page__notes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dancer-page__note-container {
+    border: 3px solid white;
+    margin: 10px 0;
+    padding: 10px;
+    width: 50%;
+}
+
+.dancer-page__note-container h3 {
+    margin-top: 3px;
+    text-align: center;
+}
+
+.dancer-page__social-links {
+    padding: 5px 0;
+}
+
+.dancer-page__social-network-link {
+    display: inline;
+}
+
+.dancer-page__social-links:nth-child(3n - 1)::before {
+    content: '';
+    background-image: url("https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/faa1360bdc826d5.png");
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.dancer-page__social-links:nth-child(3n)::before {
+    content: '';
+    background-image: url("https://cdn.worldvectorlogo.com/logos/vk-1.svg");
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.dancer-page__social-links:nth-child(3n + 1)::before {
+    content: '';
+    background-image: url("https://pixelartmaker-data-78746291193.nyc3.digitaloceanspaces.com/image/1a323afbb1ad514.png");
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.dancer-page__social-network-name {
+    display: inline;
+    padding-right: 10px;
+}
+
+.dancers-page form {
+    color: black;
+    padding: 20px;
+    -webkit-text-stroke-width: 0.04em;
+    -webkit-text-stroke-color: #7D1128;
+    width: 50vw;
+}
+
+.dancers-page input {
+    margin-top: 10px;
+    display: block;
+    outline: none;
+    width: 100%;
+}
+
+.dancer-page__input-container {
+    margin: 0 0 30px 0;
+}
+
+.dancers-page button {
+    margin-top: 10px;
+}
+
+.dancersPage__button-wrapper {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,25 @@
+.media-page {
+    width: 100%;
+    min-height: calc(100vh - 72px);
+    background-color: #082D0F;
+}
+
+.media-page__medias-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.media-page__media-item {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    border: 5px solid white;
+    width: 560px;
+}
+
+.media-page h2 {
+    display: inline-block;
+    width: 100%;
+    color: white;
+}

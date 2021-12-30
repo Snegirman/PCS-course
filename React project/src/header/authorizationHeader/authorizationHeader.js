@@ -1,7 +1,7 @@
 import React from "react";
 import './authorizationHeader.css';
 
-function AuthorizationHeader (props) {
+function AuthorizationHeader () {
     return (
         <div className={'header__authorization'}>
             <div>

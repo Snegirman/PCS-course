@@ -5,9 +5,9 @@ function StartScreen () {
     return(
         <div>
             <div className={'startScreen'}>
-                <div className={'startScreen__logo'}>
+                <h1 className={'startScreen__logo'}>
                     Волнения в народе
-                </div>
+                </h1>
                 <div className={'startScreen__scroll_down'}>
                     Прокрутите ниже
                 </div>

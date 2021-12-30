@@ -3,13 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Main from './Main';
 import reportWebVitals from './reportWebVitals';
-import StartScreen from "./startScreen/StartScreen";
+import {BrowserRouter} from "react-router-dom";
+import {Provider} from "react-redux";
+import store from "./store/store";
 
 
 ReactDOM.render(
   <React.StrictMode>
-      <StartScreen/>
-      <Main/>
+      <BrowserRouter>
+          <Provider store={store}>
+            <Main/>
+          </Provider>
+      </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

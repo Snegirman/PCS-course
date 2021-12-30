@@ -1,15 +1,15 @@
 import React from "react";
 import './navigation.css';
+import {Link} from "react-router-dom";
 
 function Navigation () {
-    return(
-        <nav className={'header__nav'}>
-            <div>Roadmap</div>
-            <div>Медиа</div>
-            <div>Ближайшие мероприятия</div>
-            <div>Личности</div>
-            <div>Страница</div>
-            <div>Страница</div>
+    return (
+        <nav className={'header__nav'} id={'header__nav'}>
+            <Link to={'roadmap'}>Roadmap</Link>
+            <Link to={'media'}>Медиа</Link>
+            <Link to={'soonEvents'}>Ближайшие мероприятия</Link>
+            <Link to={'dancers'}>Личности</Link>
+            <Link to={'reviews'}>Отзывы</Link>
         </nav>
     )
 }
